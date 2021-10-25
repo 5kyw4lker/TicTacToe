@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+
+    <link href="src/css/styles.css" rel="stylesheet">
+
+    <title>Tic Tac Toe</title>
+</head>
+
+<body oncontextmenu="return false">
+    
+    <div class="main-container">
+
+        <header class="header">
+            <h2>Tic Tac Toe</h2>    
+        </header>
+        
+        <div class="spielfeld">
+            <div class="element" id="0"><img src="src/img/rocky.png" class="img"></div>
+            <div class="element" id="1"><img src="src/img/zuma.png" class="img"></div>
+            <div class="element" id="2"><img src="src/img/tracker.png" class="img"></div>
+            <div class="element" id="3"><img src="src/img/everest.png" class="img"></div>
+            <div class="element" id="4"><img src="src/img/liberty.png" class="img"></div>
+            <div class="element" id="5"><img src="src/img/marshall.png" class="img"></div>
+            <div class="element" id="6"><img src="src/img/chase.png" class="img"></div>
+            <div class="element" id="7"><img src="src/img/skye.png" class="img"></div>
+            <div class="element" id="8"><img src="src/img/rubble.png" class="img"></div>
+        </div>
+    </div>
+
+    <div class="spielerauswahl-container">
+        <div class="spielerauswahl" id="spielauswahl-1">
+            <p class="auswahl" id="spielerauswahl_1">Paw Spieler 1</p>
+            <img src="src/img/dog.png" class="hund" id="hund-1">
+        </div>
+        <div class="spielerauswahl" id="spielauswahl-2">            
+            <p class="auswahl" id="spielerauswahl_2">Paw Spieler 2</p>
+            <img src="src/img/dog.png" class="hund" id="hund-2">
+        </div>
+    </div>  
+
+    <button onclick="startGame()" type="submit" form="form1" value="Submit" id="checked-button">
+        <img src="src/img/checked.png" id="checked-img">
+    </button>
+
+    <script src="src/js/index.js" defer></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+

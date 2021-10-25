@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+
+    <link href="src/css/styles.css" rel="stylesheet">
+
+    <title>Tic Tac Toe</title>
+</head>
+
+<body  oncontextmenu="return false">
+    
+    <div class="main-container">
+
+        <header class="header">
+            <h2>Tic Tac Toe</h2>    
+        </header>
+        
+        <div class="spielfeld" id="spielfeld">
+            <div class="element" id="0"></div>
+            <div class="element" id="1"></div>
+            <div class="element" id="2"></div>
+            <div class="element" id="3"></div>
+            <div class="element" id="4"></div>
+            <div class="element" id="5"></div>
+            <div class="element" id="6"></div>
+            <div class="element" id="7"></div>
+            <div class="element" id="8"></div>
+        </div>
+
+        <div class="sieg-zaehler">
+            <img class="sieg-zaehler-icon" id="pic-sieg-zaehler-spieler-1" src="player_black.png" alt="Spieler">
+            <div class="siegpunkte" id="sieg-zaehler-spieler-1">0</div>
+
+            <img class="sieg-zaehler-icon" id="pic-sieg-zaehler-spieler-2" src="player_x_black.png" alt="Spieler">
+            <div class="siegpunkte" id="sieg-zaehler-spieler-2">0</div>
+        </div>
+
+        <audio class="controlsContainer" id="audio" controls autoplay loop>
+            <source src="src/music/i_t_forest.mp3" type="audio/mpeg">
+        </audio>  
+
+    </div>
+
+    <script src="src/js/game.js" defer></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
